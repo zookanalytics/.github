@@ -4,7 +4,7 @@ I'm John Zook. Zook Analytics is the umbrella for the software I build and the c
 
 ## How I build
 
-AI is changing how software gets made, and I've built with it since 2023. For the past year I haven't written code by hand. I run a standing team of ten or more AI agents, with Claude building and Codex reviewing, and my time goes to steering, judging architecture, and turning each correction into process so the next round needs less of it.
+AI is changing how software gets made, and I've built with it since 2023. For the past year I haven't written code by hand. I run a standing team of ten or more AI agents, with Claude building and Codex reviewing, and my time goes to steering, judging architecture, and turning each correction into process so the next round needs less of it. They work under their own account, [zook-bot](https://github.com/zook-bot), so every commit and review shows who did it.
 
 How those agents work comes from [gc-toolkit](https://github.com/zookanalytics/gc-toolkit), the opinionated, open-source pack I build on Gas City, a multi-agent runtime. Its [written foundation](https://github.com/zookanalytics/gc-toolkit/blob/main/docs/foundation.md) starts from one asymmetry: AI changed the cost of work. Agent iteration is cheap, and human attention is the budget. It's [the same question I bring to an engineering organization](https://www.zookanalytics.com/#approach): where judgment has to sit, and what the system should handle before it asks a person.
 
